@@ -1,0 +1,16 @@
+@charset "UTF-8";
+form {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 300px;
+}
+
+#submit{
+	margin-top: 30px;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+select {
+    font-family: 'Rajdhani', sans-serif; /* 新しいフォントを指定 */
+}

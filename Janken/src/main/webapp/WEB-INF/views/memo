@@ -1,0 +1,15 @@
+ .jsp
+ <%
+	String test = (String)request.getAttribute("multiPlayCheckbox");
+	if (test.equals("testaaa")){ 
+	%>
+	<p>testです</p>
+	<% } 
+%>
+
+.java
+ 以下練習
+ 文字列を追加した値を渡すにはset..使用する必要がある（?setするとオブジェクトになる?） => getAttributeで値を取得(型変換をする必要がある)
+ getAttribute...オブジェクトの状態で値を取得する
+ 
+ request.setAttribute("multiPlayCheckbox", checkboxSelection + "aaa");
